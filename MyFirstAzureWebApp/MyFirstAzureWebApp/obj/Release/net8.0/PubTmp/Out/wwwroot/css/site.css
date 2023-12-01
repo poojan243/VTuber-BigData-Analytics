@@ -1,0 +1,133 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%; /* Increase the max-width as per your preference */
+    }
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1;
+}
+
+.jumbotron {
+    background: url('/images/vtuber_hero.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    padding-top: 150px;
+}
+
+.footer {
+    background-color: #f5f5f5; /* Example background color */
+    color: darkslategrey; /* Example text color */
+    text-align: center; /* Centering the text */
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff;
+}
+
+    .btn-primary i {
+        margin-right: 5px; /* Space between icon and text */
+    }
+
+.vTuber-section {
+    background-image: url('/images/what_is_vtuber.png');
+    background-size: cover;
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; /* This centers the content vertically */
+    justify-content: center;
+    height: 500px;
+    color: #fff; /* This is for white text, change if needed */
+}
+
+    .vTuber-section .content {
+        width: 80%; /* Adjust as per your layout */
+        margin: 0 auto;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for readability */
+        padding: 20px;
+    }
+
+    .vTuber-section h2 {
+        font-size: 2em; /* Adjust as needed */
+        margin-bottom: 20px;
+    }
+
+    .vTuber-section p {
+        font-size: 1.2em; /* Adjust as needed */
+    }
+
+.accordion-button {
+    background-color: lightgrey; /* Changed to light grey */
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.4s ease; /* Transition effect for background color */
+}
+
+    .accordion-button:hover {
+        background-color: #ddd; /* Slightly darker shade on hover */
+    }
+
+.accordion-content {
+    padding: 0 18px;
+    max-height: 0; /* Initial max-height */
+    overflow: hidden;
+    background-color: white;
+    transition: max-height 0.4s ease-out;
+}
+
+.accordion-item:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Optional: Style for when the button is active */
+.accordion-button .arrow {
+    float: right; /* Align the arrow to the right */
+}
+
+.accordion-button.active .arrow {
+    transform: rotate(180deg); /* Flip the arrow when active */
+}
+

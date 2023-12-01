@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head content like meta tags, title, and CSS links -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://app.powerbi.com/13.0.10537.111/javascripts/powerbi.min.js"></script>
+
+</head>
+<body class="site">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">VTuber Analytics</a>
+                <div class="collapse navbar-collapse  float-right">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item" style="padding-left: 1275px;">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a asp-controller="Account" asp-action="Logout" class="btn btn-primary float-right">
+                                    <i class="fas fa-user"></i> Logout
+                                </a>
+                            }
+                            else
+                            {
+                                <a asp-controller="Account" asp-action="Login" class="btn btn-primary float-right">
+                                    <i class="fas fa-user"></i> Login
+                                </a>
+                            }
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container content">
+        @RenderBody()
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            &copy; @DateTime.Now.Year - VTuber Analytics.
+            <!-- Other footer content -->
+        </div>
+    </footer>
+
+    <!-- JS scripts -->
+    <script>
+        document.querySelectorAll('.accordion-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const accordionContent = button.nextElementSibling;
+
+                button.classList.toggle('active'); // Toggle the 'active' class
+                if (button.classList.contains('active')) {
+                    accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+                } else {
+                    accordionContent.style.maxHeight = null;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

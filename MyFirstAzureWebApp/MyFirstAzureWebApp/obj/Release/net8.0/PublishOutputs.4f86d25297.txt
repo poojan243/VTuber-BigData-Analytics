@@ -1,0 +1,13 @@
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\MyFirstAzureWebApp.exe
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\MyFirstAzureWebApp.dll
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\MyFirstAzureWebApp.deps.json
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\MyFirstAzureWebApp.runtimeconfig.json
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\MyFirstAzureWebApp.pdb
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.Google.dll
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Identity.UI.dll
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\MSDA\Sem 2\Big Data\Project\webapp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll

@@ -1,0 +1,53 @@
+﻿@page
+@* @model IndexModel *@
+
+<div>
+    <div class="jumbotron jumbotron-fluid text-center bg-light">
+        <div class="container">
+            <h1 class="display-4" style="font-weight: 500;">Welcome to VTuber Analytics!</h1>
+            <p class="lead" style="font-weight: 500;">Your one-stop destination for comprehensive VTuber insights.</p>
+        </div>
+    </div>
+
+    <div class="mt-2">
+        <section class="vTuber-section">
+            <div class="content">
+                <h2>What are VTubers?</h2>
+                <p>VTubers, or Virtual YouTubers, are digital influencers who use animated avatars, often in anime style, for their online presence. They engage with their audience through various platforms, primarily via live streaming.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-center">Objectives and Benefits</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button">Assess the effectiveness and impact of VTuber content.</button>
+                    <div class="accordion-content">
+                        <p>Explore key metrics like audience engagement, view counts, and interaction rates. Case studies of successful VTuber campaigns illustrate their unique impact in the digital space. Comparative data highlights the growing influence of VTubers in contrast to traditional media formats.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Guide viewers in making informed decisions based on content history.</button>
+                    <div class="accordion-content">
+                        <p>Delve into evolving content trends among VTubers, advising viewers on identifying quality and diverse content. Tips on internet safety and discerning authentic creators from misleading sources ensure a safe viewing experience.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Offer insights for aspiring VTubers on choosing affiliations for a positive and sustainable career in content creation.</button>
+                    <div class="accordion-content">
+                        <p>Guidance for upcoming VTubers on building a unique brand and engaging with audiences effectively. Pros and cons of various affiliations are discussed, alongside strategies for maintaining a balanced and healthy approach to content creation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Include a call to action button or section here -->
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+    </div>
+</div>
