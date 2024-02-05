@@ -1,3 +1,4 @@
 # VTuber-BigData-Analytics
+This research delves into the dynamics of VTuber events, focusing on audience interaction elements like live chat, Super Chat donations, and moderation. Utilizing a Kaggle dataset, it analyzes these aspects to pinpoint what drives successful VTuber interactions. Leveraging Azure's data tools, including Azure Databricks and Synapse, the study offers detailed insights to help VTubers enhance their content and interaction strategies. It also aims to guide viewers in better navigating the VTuber world. The expected outcome is a deeper understanding of audience preferences and behaviors, leading to more personalized and impactful experiences. Ultimately, the project seeks to refine the digital connection between VTubers and their audiences, supporting the growth of this innovative entertainment form.
 
-https://vtuberapp.azurewebsites.net
+<!---https://vtuberapp.azurewebsites.net---!>
